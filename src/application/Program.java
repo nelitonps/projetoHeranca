@@ -8,7 +8,7 @@ public class Program {
 	
 		BusinessAcount account = new BusinessAcount(8010, "Bob Brown", 10.0, 500.0);
 
-		System.out.println(account.getBalance());
+		System.out.println("Balance: " + account.getBalance());
 		
 	}
 
